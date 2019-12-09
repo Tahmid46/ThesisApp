@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    >
+<android.support.v7.widget.CardView
+    android:id="@+id/CardId"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#aef1c2"
+    android:foreground="?android:attr/selectableItemBackground">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Medicine : Acifix"
+           android:id="@+id/tvmed"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Doctor: Dr. ABC"
+           android:id="@+id/tvdoc"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Start Date: 11/02/2018"
+           android:id="@+id/tvstdate"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="End Date: 11/02/2018"
+           android:id="@+id/tvendate"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Morning Time: 8.00"
+           android:id="@+id/tvmtime"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Afternoon Time: 14.00"
+           android:id="@+id/tvatime"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Afternoon Time: 20.00"
+           android:id="@+id/tvntime"/>
+
+   </LinearLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>

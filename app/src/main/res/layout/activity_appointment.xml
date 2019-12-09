@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:orientation="vertical"
+    android:gravity="center"
+
+
+    tools:context=".AppointmentActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20dp">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:maxLength="15"
+            android:hint="Name Of Doctor(Maximum 15 chracters)"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Pick a date:(You will get notification at 12 AM on that day)"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"/>
+        </LinearLayout>
+
+      <CalendarView
+          android:id="@+id/cvappointmen"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Select date"/>
+
+        <Button
+            android:id="@+id/butsave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Save" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</ScrollView>
