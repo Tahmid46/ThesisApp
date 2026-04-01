@@ -81,7 +81,7 @@ In an emergency, the user taps **Ambulance** to view a list of local services (A
 
 ## Prerequisites
 
-- **Android Studio** Arctic Fox or newer (or any IDE that supports Gradle-based Android projects)
+- **Android Studio** (any recent version, or any IDE that supports Gradle-based Android projects)
 - **JDK 8+**
 - **Android SDK** with API level 28 platform and build-tools `28.0.2` installed
 - A physical Android device or emulator running **Android 6.0 (API 23) or higher**
@@ -136,10 +136,12 @@ The compiled APK is placed in `app/build/outputs/apk/debug/app-debug.apk`.
 ### Other useful Gradle tasks
 
 ```bash
-./gradlew assembleRelease   # Build a release APK (ProGuard enabled)
+./gradlew assembleRelease   # Build a release APK (ProGuard enabled; requires a signing keystore)
 ./gradlew clean             # Delete build artefacts
 ./gradlew tasks             # List all available tasks
 ```
+
+> **Note – release signing:** Before distributing a release APK you must configure a signing keystore. Add a `signingConfigs` block to `app/build.gradle` with your keystore path, alias, and passwords, then reference it in the `release` build type. See the [Android documentation](https://developer.android.com/studio/publish/app-signing) for details.
 
 ---
 
