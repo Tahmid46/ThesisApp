@@ -15,6 +15,7 @@ An Android application that helps users manage their medications, scan prescript
 - [How to Run](#how-to-run)
 - [Project Structure](#project-structure)
 - [Permissions](#permissions)
+- [Screenshots](#screenshots)
 
 ---
 
@@ -203,3 +204,19 @@ The app declares the following Android permissions:
 | `RECEIVE_BOOT_COMPLETED` | Restore medication reminders after reboot |
 | `SET_ALARM` | Schedule dose notifications |
 | `VIBRATE` | Notification vibration |
+
+---
+
+## Screenshots
+
+### 1 – Reminder screen with overflow menu open
+![Reminder screen with overflow menu](https://github.com/user-attachments/assets/9b327760-b6ab-4f97-b25c-54578c4ad039)
+
+### 2 – Medicine search screen with overflow menu open
+![Medicine search screen with overflow menu](https://github.com/user-attachments/assets/e6cde8d3-6149-4f62-8313-6bb4486c0922)
+
+### 3 – Clear All Data confirmation dialog on home screen
+![Clear All Data confirmation dialog](https://github.com/user-attachments/assets/3795b7a0-a1e4-4794-a739-7b6f1324aa01)
+
+### 4 – Share Data screen (send health data by email)
+![Share Data screen](https://github.com/user-attachments/assets/66096afa-729a-449c-b96e-b4588ec584ed)

@@ -32,8 +32,6 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
 
         switch (item.getItemId()){
-            case R.id.item1:
-                return true;
             case R.id.item4:
                 changeSettings();
                 return true;
