@@ -7,6 +7,7 @@ An Android application that helps users manage their medications, scan prescript
 ## Table of Contents
 
 - [About the Project](#about-the-project)
+- [Related Research](#related-research)
 - [Features](#features)
 - [Use Cases](#use-cases)
 - [Tech Stack](#tech-stack)
@@ -29,6 +30,16 @@ ThesisDemoApp is a personal healthcare companion app for Android. It stores a pr
 - Call an ambulance service with one tap.
 
 Authentication is handled locally through fingerprint biometrics or a pattern lock, so no account or internet connection is required for core functionality.
+
+---
+
+## Related Research
+
+This application serves as a practical implementation of the privacy and security principles outlined in the following publication:
+
+> **[User-Centred Design-Based Privacy and Security Framework for Developing Mobile Health Applications](https://www.researchgate.net/publication/351645225_User-Centred_Design-Based_Privacy_and_Security_Framework_for_Developing_Mobile_Health_Applications)**
+
+The paper proposes a user-centred design (UCD) framework that embeds privacy and security into every stage of mobile health (mHealth) app development. ThesisDemoApp demonstrates this framework in practice by storing all sensitive health data—medications, prescriptions, appointments, and medical history—locally on the device rather than transmitting it to external servers, and by gating access behind biometric (fingerprint) and pattern-lock authentication. These design choices ensure that users retain full control over their personal health information while still benefiting from features like OCR prescription scanning and medication reminders, directly validating the paper's argument that strong privacy and security measures can coexist with a convenient, patient-friendly user experience.
 
 ---
 
